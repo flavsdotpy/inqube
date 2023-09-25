@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "inqube"
+version = "0.1.0"
+description = "Agnostic docker-based data ingestion project"
+authors = ["Flávio Teixeira <flavio.mtps@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

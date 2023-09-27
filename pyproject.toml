@@ -9,6 +9,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.31.0"
+gspread = "^5.11.2"
+pyyaml = "^6.0.1"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.2"
